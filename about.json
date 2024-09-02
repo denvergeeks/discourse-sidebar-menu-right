@@ -1,8 +1,8 @@
 {
   "name": "Sidebar Menu Right",
   "component": true,
-  "license_url": null,
-  "about_url": null,
+  "license_url": "https://github.com/denvergeeks/discourse-sidebar-menu-right/blob/main/LICENSE",
+  "about_url": "https://meta.discourse.org/t/switch-the-new-sidebar-from-left-to-right-side-english-forum/256239/12",
   "authors": "@denvergeeks",
   "theme_version": null,
   "minimum_discourse_version": null,
