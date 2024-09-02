@@ -1,0 +1,17 @@
+body #main-outlet-wrapper {
+        grid-template-areas: "content sidebar";
+        grid-template-columns: minmax(0, 1fr) 0;
+    }
+    
+body.sidebar-animate #main-outlet-wrapper {
+        grid-template-areas: "content sidebar";
+    }
+body.has-sidebar-page #main-outlet-wrapper {
+        grid-template-areas: "content sidebar";
+        grid-template-columns: minmax(0, 1fr) var(--d-sidebar-width);
+        padding: 0 10px;
+    }
+
+.sidebar-wrapper {
+    background: var(--d-sidebar-background);
+}
